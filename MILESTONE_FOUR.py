@@ -26,7 +26,7 @@ def download_image(url):
 
 
 # Set up the Groq API client
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "API KEY"
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # Set page configuration
@@ -34,9 +34,9 @@ st.set_page_config(page_title="PaddleOCR Text Detection", layout="wide")
 
 # Cloudinary Configuration
 cloudinary.config(
-    cloud_name="dr1nw2lx6", 
-    api_key="565959734493973", 
-    api_secret="SUmwhp0OQIanazJcsz3Co8FYr70", 
+    cloud_name="CLOUD NAME", 
+    api_key="API KEY", 
+    api_secret="SECRET KEY", 
     secure=True
 )
 
